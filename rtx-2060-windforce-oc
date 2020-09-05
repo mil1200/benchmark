@@ -1,11 +1,5 @@
 hashcat (v5.1.0) starting in benchmark mode...
 
-* Device #1: WARNING! Kernel exec timeout is not disabled.
-             This may cause "CL_OUT_OF_RESOURCES" or related errors.
-             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
-* Device #2: Intel's OpenCL runtime (GPU only) is currently broken.
-             We are waiting for updated OpenCL drivers from Intel.
-             You can use --force to override, but do not report related errors.
 OpenCL Platform #1: NVIDIA Corporation
 ======================================
 * Device #1: GeForce RTX 2060, 1536/6144 MB allocatable, 30MCU
@@ -13,12 +7,6 @@ OpenCL Platform #1: NVIDIA Corporation
 OpenCL Platform #2: Intel(R) Corporation
 ========================================
 * Device #2: Intel(R) UHD Graphics 630, skipped.
-
-Benchmark relevant options:
-===========================
-* --benchmark-all
-* --opencl-devices=1
-* --workload-profile=3
 
 Hashmode: 0 - MD5
 
